@@ -8,7 +8,7 @@ namespace SortApp
 {
     public class BubbleSort
     {
-        public int[] BubbleSorting(int[] array)
+        public static int[] BubbleSorting(int[] array)
         {
             return array;
         }
