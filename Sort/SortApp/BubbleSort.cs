@@ -8,12 +8,12 @@ namespace SortApp
 {
     public class BubbleSort
     {
-        public int[] BubbleSorting(int[] array)
+        public static int[] BubbleSorting(int[] array)
         {
             int num;
-            for (int x = 0; x <= array.Length; x++)
+            for (int x = 0; x <= array.Length - 2; x++)
             {
-                for (int y = 0; y <= array.Length; y++)
+                for (int y = 0; y <= array.Length - 2; y++)
                 {
                     if (array[y] > array[y + 1])
                     {
